@@ -58,19 +58,24 @@ playwright install
 
 ## Running the Automation
 
-### Option 1: From the parent directory (`IT23674912`)
 
+### Option 1: From the clone repository (Recommended)
 ```bash
-python IT23674912-ITPM-Assignment1/test_automation.py --excel "IT23674912-ITPM-Assignment1/IT23674912 - Test cases.xlsx" --url "https://www.pixelssuite.com/chat-translator" --wait-ms 5000 --type-delay-ms 80 --slow-mo-ms 200 --save-every 1 --keep-open
+git clone https://github.com/isuru-bimsara/-IT23674912---IT3040---ITPM.git
+```
+```bash
+cd -IT23674912---IT3040---ITPM
+```
+```bash
+python test_automation.py --excel "-IT23674912---IT3040---ITPM\IT23674912 - Test cases.xlsx" --url "https://www.pixelssuite.com/chat-translator" --wait-ms 12000 --type-delay-ms 80 --slow-mo-ms 200 --save-every 1 --keep-open
 ```
 
-### Option 2: From the assignment folder (Recommended)
+### Option 2: If you downloadzip file (`IT23674912`)
 
-Navigate to the assignment folder first:
+Unzip file and go IT23674912-ITPM-Assignment1 folder.
 
 ```bash
-cd IT23674912-ITPM-Assignment1
-python test_automation.py --excel "IT23674912 - Test cases.xlsx" --url "https://www.pixelssuite.com/chat-translator" --wait-ms 5000 --type-delay-ms 80 --slow-mo-ms 200 --save-every 1 --keep-open
+python test_automation.py --excel "IT23674912-ITPM-Assignment1\IT23674912 - Test cases.xlsx" --url "https://www.pixelssuite.com/chat-translator" --wait-ms 12000 --type-delay-ms 80 --slow-mo-ms 200 --save-every 1 --keep-open
 ```
 
 ### Command-line Options
