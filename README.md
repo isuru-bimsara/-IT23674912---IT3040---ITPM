@@ -70,9 +70,9 @@ cd -IT23674912---IT3040---ITPM
 python test_automation.py --excel "-IT23674912---IT3040---ITPM\IT23674912 - Test cases.xlsx" --url "https://www.pixelssuite.com/chat-translator" --wait-ms 12000 --type-delay-ms 80 --slow-mo-ms 200 --save-every 1 --keep-open
 ```
 
-### Option 2: If you downloadzip file (`IT23674912`)
+### Option 2: If you download zip file (`IT23674912`)
 
-Unzip file and go IT23674912-ITPM-Assignment1 folder.
+Unzip file and go IT23674912-ITPM-Assignment1 folder (IT23674912\IT23674912\IT23674912-ITPM-Assignment1).
 
 ```bash
 python test_automation.py --excel "IT23674912-ITPM-Assignment1\IT23674912 - Test cases.xlsx" --url "https://www.pixelssuite.com/chat-translator" --wait-ms 12000 --type-delay-ms 80 --slow-mo-ms 200 --save-every 1 --keep-open
